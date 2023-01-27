@@ -1,17 +1,21 @@
 Hi there 👋, I'm Mohammed Ajoor...
 
 
-<!--
-**mhmdajoor5/mhmdajoor5** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class MHMD extends Developer {
+  String name = "Mohammed Ajoor";
+  String position = "Mobile developer";
 
-Here are some ideas to get you started:
+  List<String> knowledge() {
+    return [
+      "Flutter",
+    ];
+  }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  Map<String, String> contacts() {
+    return {
+      "twitter": "https://twitter.com/mhmdajoor5",
+      "github": "https://github.com/mhmdajoor5",
+      "linkedin": "https://www.linkedin.com/in/mhmd-ajoor",
+    };
+  }
+}
